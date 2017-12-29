@@ -1,0 +1,35 @@
+/*
+Theme Name:     custom child theme
+Description:    
+Author:         admin
+Template:       businessbuilder
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+.entry-more a {
+    background: #5288bd;
+}
+
+.food {
+    border: solid 1px black;
+}
+
+.food .food_item {
+    display: inline-block;
+    border: solid 1px black;
+    padding: 2px;
+}
+
+.food .food_item .food_image {
+    float: left;
+}
+
+.food .food_item .food_image img {
+    width: 200px;
+    height: 200px;
+}
+
+.food .food_item .food_desc p {
+    padding: 10px;
+}
